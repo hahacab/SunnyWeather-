@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+        />
+    <!--        android:id用于给当前元素定义唯一标识符
+    android:text指定显示的文字内容
+      在XML文件中，形如 <Button /> 的表示方式，其中“/>”的含义表示这个XML中没有内文，他是一个最小组成单元，也就是说他
+      的中间不能包含其他任何的< >代码，所以在<Button />中间注释会出现错误（如下图所示，红色波浪为错误提示）。
+      所以可以得到注释的位置应该处于符号‘<’之前或符号‘>’之后-->
+</LinearLayout>
